@@ -13,3 +13,5 @@
 - 🗃️ [A Java CLI tool for generating Anki/Memrise/Pleco flashcards for Chinese study - recently refactored with a few JDk 14 features](https://github.com/danielt998/HanziToAnki)
 - 📶 [Only have an ethernet connection and no Wi-Fi? Make your phone into a hotspot automatically with PowerShell!](https://github.com/IdiosApps/winDroid_usbTether)
 - 🌱 [A Spring web server application that communicates over HTTP, stores data on a H2 database, and uses JUnit for automated unit and integration testing](https://github.com/IdiosApps/OfferServer)
+- 🏨 [Made a website for a charity. A Google Calender is embedded so availability can be quickly and accurately checked by both organisers and people who cannot usually afford to pay for a holiday because of their financial circumstances](https://hcas.website/)
+- 🐍 [A very basic backend Python Flask app which uses Jinja2, an Edamam recipe API, and Heroku to help you reduce food waste](https://github.com/IdiosApps/flask_edamam)
