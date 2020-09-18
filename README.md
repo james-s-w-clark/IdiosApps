@@ -2,7 +2,7 @@
 
 - 💼 I’m currently as a backend Java engineer at [Luminance](https://www.luminance.com/)
 - 🌱 I’m currently learning Spring (Spring boot, Spring MVC, and more), web-scraping, AWS - and of course more Java!
-- 📫 Reach me at [LinkedIn][https://www.linkedin.com/in/james-sw-clark/]
+- 📫 Reach me at [LinkedIn](https://www.linkedin.com/in/james-sw-clark/)
 - ⚡ Fun fact: 我会说一点中文（五年以前开始。。！）
 
 
