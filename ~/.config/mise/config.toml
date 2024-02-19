@@ -1,0 +1,10 @@
+# Global defaults for https://github.com/jdx/mise
+[tools]
+node = "20.11.1"
+java = "17"
+
+zoxide = "latest" # better "cd"
+fzf = "latest"
+
+[settings]
+disable_tools = ["mill"] # ignore .mill-version
