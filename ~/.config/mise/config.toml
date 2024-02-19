@@ -1,6 +1,10 @@
 # Global defaults for https://github.com/jdx/mise
-# No version => latest
+# 1. copy to ~/.config/mise
+# 2. mise install
+# 3. mise tasks run finit
+
 [tools]
+## languges/sdks
 node = "20.11.1"
 
 java = "17"
@@ -9,20 +13,28 @@ scala = "2.13.12"
 erlang = "26"
 elixir = "1.16.1-otp-26"
 
-# cli
-zoxide # better "cd"
-fzf
+## cli
+# better "cd"
+zoxide = "latest"
+fzf = "latest"
+gum = "latest"
 
-# git
-git
-github-cli
+## git
+git = "latest"
+github-cli = "latest"
 
 
-# containers
-colima
+## containers
+colima = "latest"
 # also do https://github.com/abiosoft/colima/issues/365#issuecomment-1333124133
-k9s
+k9s = "latest"
 
+[tasks.finit]
+run = [
+  "gum confirm 'Set Colima socket to zshrc?' && echo 'export DOCKER_HOST=$HOME/.colima/docker.sock' >> ~/.zshrc",
+  "gum confirm 'Open zoxide readme to finish install?' && open https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation",
+]
 
 [settings]
 disable_tools = ["mill"] # ignore .mill-version
+experimental = true
