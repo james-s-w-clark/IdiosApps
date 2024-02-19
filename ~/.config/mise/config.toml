@@ -1,7 +1,12 @@
 # Global defaults for https://github.com/jdx/mise
 [tools]
 node = "20.11.1"
+
 java = "17"
+scala = "2.13.12"
+
+erlang = "26"
+elixir = "1.16.1-otp-26"
 
 zoxide = "latest" # better "cd"
 fzf = "latest"
