@@ -27,6 +27,13 @@ github-cli = "latest"
 ## containers
 colima = "latest"
 # also do https://github.com/abiosoft/colima/issues/365#issuecomment-1333124133
+# alternatives:
+# colima - OSS, 
+# podman
+# portainer
+# orbstack - $8/m enterprise, free personal, some OSS components
+# docker desktop - $5/m; "brew install docker" isn't enough due to missing daemon. heavy too
+# dockstation - not OSS, not updated for 3 years
 k9s = "latest"
 
 [tasks.finit]
