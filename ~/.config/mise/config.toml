@@ -1,4 +1,5 @@
 # Global defaults for https://github.com/jdx/mise
+# No version => latest
 [tools]
 node = "20.11.1"
 
@@ -8,8 +9,20 @@ scala = "2.13.12"
 erlang = "26"
 elixir = "1.16.1-otp-26"
 
-zoxide = "latest" # better "cd"
-fzf = "latest"
+# cli
+zoxide # better "cd"
+fzf
+
+# git
+git
+github-cli
+
+
+# containers
+colima
+# also do https://github.com/abiosoft/colima/issues/365#issuecomment-1333124133
+k9s
+
 
 [settings]
 disable_tools = ["mill"] # ignore .mill-version
