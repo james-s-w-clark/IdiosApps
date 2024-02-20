@@ -29,7 +29,9 @@ colima = "latest"
 # also do https://github.com/abiosoft/colima/issues/365#issuecomment-1333124133
 # alternatives:
 # lima
-# colima - OSS, 
+# colima - OSS
+  # FAQ helped get past socket issues, https://github.com/abiosoft/colima/blob/main/docs/FAQ.md#cannot-connect-to-the-docker-daemon-at-unixvarrundockersock-is-the-docker-daemon-running
+  # works with "brew install docker"
 # podman - OSS
   # install podman CLI (via browser -> app install, or brew install podman)
   # or, install podman desktop (via browser -> app install)
