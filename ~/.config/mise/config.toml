@@ -34,7 +34,7 @@ colima = "latest"
   # install podman CLI (via browser -> app install, or brew install podman)
   # or, install podman desktop (via browser -> app install)
   # alias docker to podman
-    # "docker compose" works too
+    # "brew install docker-compose" works too; "executing external compose provider docker-compose". Even "podman compose" hands over to docker compose.
   # so far minor issues like needing docker-credential-helper, https://github.com/docker/for-mac/issues/2131#issuecomment-343712703
 # portainer - not drop-in replacement for docker; requires docker (https://docs.portainer.io/start/install-ce/server/docker/linux)
 # orbstack - $8/m enterprise, free personal, some OSS components
