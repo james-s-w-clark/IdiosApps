@@ -39,6 +39,7 @@ colima = "latest"
     # "brew install docker-compose" works too; "executing external compose provider docker-compose". Even "podman compose" hands over to docker compose.
   # so far minor issues like needing docker-credential-helper, https://github.com/docker/for-mac/issues/2131#issuecomment-343712703
   # cleanup notes https://github.com/containers/podman/issues/11319
+# rancher desktop - ... not tried yet ... 
 # portainer - not drop-in replacement for docker; requires docker (https://docs.portainer.io/start/install-ce/server/docker/linux)
 # orbstack - $8/m enterprise, free personal, some OSS components
 # docker desktop - $5/m; "brew install docker" isn't enough due to missing daemon. heavy too
