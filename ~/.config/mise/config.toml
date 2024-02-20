@@ -28,9 +28,15 @@ github-cli = "latest"
 colima = "latest"
 # also do https://github.com/abiosoft/colima/issues/365#issuecomment-1333124133
 # alternatives:
+# lima
 # colima - OSS, 
-# podman
-# portainer
+# podman - OSS
+  # install podman CLI (via browser -> app install, or brew install podman)
+  # or, install podman desktop (via browser -> app install)
+  # alias docker to podman
+    # "docker compose" works too
+  # so far minor issues like needing docker-credential-helper, https://github.com/docker/for-mac/issues/2131#issuecomment-343712703
+# portainer - not drop-in replacement for docker; requires docker (https://docs.portainer.io/start/install-ce/server/docker/linux)
 # orbstack - $8/m enterprise, free personal, some OSS components
 # docker desktop - $5/m; "brew install docker" isn't enough due to missing daemon. heavy too
 # dockstation - not OSS, not updated for 3 years
